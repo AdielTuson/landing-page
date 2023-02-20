@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
@@ -90,11 +91,54 @@ body {
 
 
 /* Products section */
+.products-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15%;
+    padding: 25px 40px 70px ;
+    gap: 25px;
+    align-items: center;
+}
+
+.products-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 .item {
-
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    gap: 10px;
 }
 
-.item > img {
-    width: 100px;
-    height: 100px;
+.item > .image-container {
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
 }
+
+.item > p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    border: 4px solid #3882f6;
+}
+
+
