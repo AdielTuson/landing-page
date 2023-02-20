@@ -88,3 +88,13 @@ body {
     border: none;
 }
 
+
+/* Products section */
+.item {
+
+}
+
+.item > img {
+    width: 100px;
+    height: 100px;
+}

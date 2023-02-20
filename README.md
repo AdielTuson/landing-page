@@ -7,7 +7,13 @@ of the page. I will then style them on the css file.
 "https://www.flaticon.com/authors/freepik" from
 "https://www.flaticon.com/"
 
--Credit for 'gemmara' image: Image by zz zz
-("https://pixabay.com/users/aa18381838-12628845/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4856927")
- from pixabay ("https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4856927")
+-Credit for 'gemmara' image: Image by zz zz from pixabay
+ 
+ -Credit for 'halacha' books image: Image by shatshira from Pixabay.
+
+ -Credit for 'tehilim' image: Ri Butov from Pixabay.
+
+ -Credit for 'humash' and 'sefer-torah': Cottonbro studio from Pexels.
+
+
  
