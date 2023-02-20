@@ -79,7 +79,7 @@ body {
     color: #e5e7eb;
 }
 
-.hero-text > button {
+ button {
     padding: 5px 20px;
     background-color: #3882f6;
     color: #fff;
@@ -145,20 +145,48 @@ body {
 /* quote section */
 .quote-section {
     background-color: #e5e7eb;
-    padding: 80px;
+    padding: 110px 0;
 }
 
 #quote {
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
-    margin: 0 20%;
-    padding-bottom: 5px;
+    margin: 0 22%;
 }
 
 #quote-writer {
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 800;
     text-align: end;
-    margin:0 20%;
+    margin:0 25%;
+}
+
+
+/* sign-up section */
+.sign-up-section {
+    display: flex;
+    margin: 5% 15%;
+    background-color: #3882f6;
+    padding: 40px 100px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.sign-up-text {
+    color: #fff;
+    font-size: 24px;
+    flex: 1;
+}
+
+.sign-up-text > .text {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.sign-up-section > button {
+    border: 2px solid white;
+    align-self: center;
 }
