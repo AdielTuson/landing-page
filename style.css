@@ -37,6 +37,10 @@ body {
     text-decoration: none;
 }
 
+.header a:hover {
+    color:#3882f6 ;
+}
+
 /* margin for the website edges */
 .header, .hero {
     margin: 0 15%;
@@ -79,7 +83,7 @@ body {
     color: #e5e7eb;
 }
 
- button {
+button {
     padding: 5px 20px;
     background-color: #3882f6;
     color: #fff;
@@ -89,13 +93,19 @@ body {
     border: none;
 }
 
+button:hover {
+    background-color: aqua;
+    color: #1f2937;
+    cursor: pointer;
+}
+
 
 /* Products section */
 .products-section {
     display: flex;
     flex-direction: column;
     margin: 0 20%;
-    padding-bottom:80px ;
+    padding-bottom: 80px;
     align-items: center;
 }
 
@@ -126,6 +136,10 @@ body {
     width: 160px;
     height: 160px;
     border-radius: 15px;
+}
+
+.image-container:hover {
+    cursor: pointer;
 }
 
 .item > p {
@@ -168,7 +182,7 @@ body {
     display: flex;
     margin: 5% 15%;
     background-color: #3882f6;
-    padding: 40px 100px;
+    padding: 3% 6% ;
     border-radius: 8px;
     justify-content: space-between;
     align-items: center;
@@ -191,11 +205,15 @@ body {
     align-self: center;
 }
 
+.sign-up-section > button:hover {
+    border: 2px solid #1f2937;
+}
+
 
 /* Footer section style */
 .footer {
     background-color: #1f2937;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 25px;
 }
